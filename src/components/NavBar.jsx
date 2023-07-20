@@ -8,7 +8,7 @@ const NavBar = () => {
         <div 
         data-aos="fade-down" data-aos-duration="1000"
         className="nav-bar">
-            <div className="shadow-1"></div>
+            
             <img src={logo} alt="" />
             <div onClick={()=>{
                     const navbarIcon = document.querySelector(".menu-icon")
