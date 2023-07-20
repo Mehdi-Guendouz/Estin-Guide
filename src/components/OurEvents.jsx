@@ -14,60 +14,60 @@ const OurEvents = () => {
       
     return ( 
         <div className="our-events" id="our-events">
-            <div data-aos="fade-right" data-aos-duration="1000" >
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                 <h1 className="title">Our <span>events</span> & <span>workShops</span></h1>
             </div>
             <div className="events" >
-                <div className="event" data-aos="fade-up" data-aos-duration="1000">
+                <div className="event" data-aos="fade-up" data-aos-duration="1000"  data-aos-delay="200">
                     <img src={event_1} alt="event img" />
                     <div className="text">
                         <h3>Code Rally</h3>
                         <p>"Code Rally" is a hackathon event organized by Beytcraft.</p>
                     </div>
                 </div>
-                <div className="event" data-aos="fade-up" data-aos-duration="1000">
+                <div className="event" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <img src={event_2} alt="event img" />
                     <div className="text">
                         <h3>GDSC Hack Day</h3>
                         <p>"GDSC Hack Day" is a Capture The Flag (CTF) event organized by GDSC.</p>
                     </div>
                 </div>
-                <div className="event" data-aos="fade-up" data-aos-duration="1000">
+                <div className="event" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <img src={event_3} alt="event img" />
                     <div className="text">
                         <h3>IdeaTech 2</h3>
                         <p>"IdeaTech 2" is an ideathon event organized by Beytcraft.</p>
                     </div>
                 </div>
-                <div className="event" data-aos="fade-up" data-aos-duration="1000">
+                <div className="event" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <img src={event_4} alt="event img" />
                     <div className="text">
                         <h3>Chesstin</h3>
                         <p>"Chesstin" is a chess game competition organized by Beytcraft.</p>
                     </div>
                 </div>
-                <div className="event" data-aos="fade-up" data-aos-duration="1000">
+                <div className="event" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <img src={event_5} alt="event img" />
                     <div className="text">
                         <h3>Design Camp</h3>
                         <p>"Design Camp" is a three-day bootcamp for beginners in design organized by Beytcraft.</p>
                     </div>
                 </div>
-                <div className="event" data-aos="fade-up" data-aos-duration="1000">
+                <div className="event" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <img src={event_6} alt="event img" />
                     <div className="text">
                         <h3>BrainOn</h3>
                         <p>"BrainOn" is an ideathon event organized by SOAI (School of AI).</p>
                     </div>
                 </div>
-                <div className="event" data-aos="fade-up" data-aos-duration="1000">
+                <div className="event" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <img src={event_7} alt="event img" />
                     <div className="text">
                         <h3>Learn It</h3>
                         <p>"Learn It" is a series of accelerated workshops covering a variety of tech topics organized by SOAI (School of AI).</p>
                     </div>
                 </div>
-                <div className="event" data-aos="fade-up" data-aos-duration="1000">
+                <div className="event" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <img src={event_8} alt="event img" />
                     <div className="text">
                         <h3>GDSC School</h3>

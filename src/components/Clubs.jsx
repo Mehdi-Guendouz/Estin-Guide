@@ -6,7 +6,7 @@ import suiris from"../assets/logo/suiris.jpg"
 export default function Clubs() {
   return (   
     <div className="clubs" >
-                <div data-aos="fade-up" data-aos-duration="900" 
+                <div data-aos="fade-up" data-aos-duration="1000"  data-aos-delay="1000" 
                 className="club" onClick={()=> window.open("https://www.instagram.com/bytecraft.estin/?hl=fr", "_blank")}>
                     <div className="text">
                         <h3>Bytecraft</h3>
@@ -20,7 +20,7 @@ export default function Clubs() {
                         <img src={bytecraft} alt="" />
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="900" 
+                <div data-aos="fade-up" data-aos-duration="1000"  data-aos-delay="1000" 
                 className="club" onClick={()=> window.open("https://www.instagram.com/gdsc_estin/?hl=fr", "_blank")}>
                     <div className="text">
                         <h3>GDSC</h3>
@@ -34,7 +34,7 @@ export default function Clubs() {
                         <img src={gdsc} alt="" />
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="900" 
+                <div data-aos="fade-up" data-aos-duration="1000"  data-aos-delay="1000" 
                 className="club" onClick={()=> window.open("https://www.instagram.com/soai_bejaia/?hl=fr", "_blank")}>
                     <div className="text">
                         <h3>SOAI-BEJAIA</h3>
@@ -48,7 +48,7 @@ export default function Clubs() {
                         <img src={soai} alt="" />
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="900" 
+                <div data-aos="fade-up" data-aos-duration="1000"  data-aos-delay="1000" 
                 className="club" onClick={()=> window.open("https://www.instagram.com/sirius.estin/?hl=fr", "_blank")}>
                     <div className="text">
                         <h3>Siruis</h3>
