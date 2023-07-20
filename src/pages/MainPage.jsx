@@ -1,6 +1,5 @@
 import NavBar from '../components/NavBar';
 import Welcome from '../components/Welcome';
-import WhatIsEstin from '../components/Estin';
 import OurClubs from '../components/OurClubs';
 import OurEvents from '../components/OurEvents';
 import LifeinCampus from '../components/LifeinCampus';
