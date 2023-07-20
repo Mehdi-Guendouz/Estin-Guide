@@ -4,7 +4,7 @@
 }
 
 .grid-left{
-    border-top: 5px solid #5546FF;
+    /* border-top: 5px solid #5546FF; */
     border-bottom: 5px solid #5546FF;
     border-left: none;
     min-height: 500px;
@@ -29,7 +29,7 @@
 
 .grid-right{
     padding: 50px;
-    border-top: 5px solid #5546FF;
+    /* border-top: 5px solid #5546FF; */
     border-bottom: 5px solid #5546FF;
 }
 
@@ -48,9 +48,9 @@
 }
 
 .about-title-container{
-    padding: 20px 0;
-    margin-bottom: 30px;
-    
+    padding: 30px 0;
+    /* margin-bottom: 30px; */
+    border-bottom: #5546FF 5px solid ;
 }
 
 .content-about{
@@ -62,9 +62,18 @@
 .content-about h4 {
     color: #5546FF;
 }
+.content-about h5 {
+    color: #5546FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content-about h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 .separate-content :first-child{
-    font-size: 20px;
+    font-size: 18px;
     /* color: #5546FF; */
     text-transform: capitalize;
     padding-right: 10px;

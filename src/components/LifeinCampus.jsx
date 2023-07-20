@@ -7,13 +7,15 @@ const LifeinCampus = () => {
     
     return ( 
         <div className="life-in-campus" id='life-in-campus'>
+            <div className="shadow-4"></div>
+            <div className="shadow-5"></div>
             <h1 data-aos="fade-right" data-aos-duration="1000"
             className="title">life in <span>campus</span></h1>
 
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" 
-            className="campus-sec campus-1-border">
+            className="campus-sec campus-1-border campus-sec1">
                 <div className="text">
-                    <h2>CAMPUS</h2>
+                    <h2>RESIDENCE</h2>
                     <p>Introducing the Amizour 2 Campus at Estin School, located in Amizour, Bejaia. This secure and peaceful mixed campus is nestled in a beautiful setting, just 3.2 km from Amizour town and 23 km from Bejaia city. It offers separate sections for boys and girls, making it suitable for diverse student populations. The campus is conveniently located near Estin School, providing easy access to additional educational resources and facilities. Amenities at the campus include a prayer room, gym, restaurant, foyer, and a sports field. Additionally, students can enjoy a dedicated reading room for quiet study.</p>
                 </div>
                 <div className="img-container">
@@ -27,7 +29,7 @@ const LifeinCampus = () => {
                 </div>
                 <div className="text">
                     <h2>RESTAU</h2>
-                    <p>The campus restaurant is centrally located within the Amizour 2 Campus, offering convenient access to students and staff. The restaurant is known for its high-quality food and cleanliness standards. With a menu that changes daily, students can enjoy a variety of delicious and balanced meals. The restaurant's efficient organization ensures a smooth dining experience for everyone, further enhancing the overall satisfaction of the campus community.</p>
+                    <p>The residence restaurant is centrally situated, offering easy access to all students and staff. It provides a range of affordable and wholesome meals, with a regularly updated menu to keep the options fresh. The restaurant maintains cleanliness and ensures a comfortable dining experience for students.</p>
                 </div>
             </div>
             <div data-aos="fade-right" data-aos-duration="1000"

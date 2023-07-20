@@ -32,7 +32,7 @@ export const about = [
         id: 1
     },
     {
-        title: "Admissions",
+        title: "admissions",
         content: [{
             title: "BAC 2021 :",
             content: [{
@@ -62,7 +62,7 @@ export const about = [
         id: 2
     },
     {
-        title: "Specialities",
+        title: "specialities",
         content: [{
             title: "Artificial Intelligence",
             content: [

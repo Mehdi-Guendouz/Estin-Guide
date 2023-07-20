@@ -12,8 +12,8 @@ export default function Clubs() {
                         <h3>Bytecraft</h3>
                         <p>Beytcraft is a tech club where you can learn web development, game development, and design.</p>
                         <div className="nums">
-                            <p>+300 memebers</p>
-                            <p>+5 events</p>
+                            <p>+500 memebers</p>
+                            <p>+10 events</p>
                         </div>
                     </div>
                     <div className="logo">

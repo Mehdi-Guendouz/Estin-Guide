@@ -11,6 +11,11 @@ html{
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
+.main-class{
+  position: relative;
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -75,7 +80,8 @@ p span{
   margin-left: auto;
   margin-right: auto; */
   margin: auto;
-  position: relative;     
+  position: relative;   
+  
 }
 @media (max-width:767px){
   .container{
@@ -191,6 +197,7 @@ p span{
   .nav-bar {
     position: relative; 
     z-index: 99;
+    overflow: hidden;
   }
   .nav-bar .menu-icon.clicked + ul{
     display: flex;
@@ -375,7 +382,13 @@ p span{
   }
   .what-is-estin .text{
     width: 100%;
+    padding: 0 8px;
   }
+
+  .what-is-estin .text p{
+    text-align: left;
+  }
+
   .what-is-estin .images{
     width: 100%;
   }
@@ -609,6 +622,7 @@ p span{
 /* the our clubs  */
 .our-clubs{
   padding: 50px 0;
+  position: relative;
 }
 
 .our-clubs .imgs-grid{
@@ -642,6 +656,7 @@ p span{
   .our-clubs{
     padding: 0 8px;
     margin-top: 50px;
+    overflow: hidden;
   }
   .our-clubs .imgs-grid{
     flex-direction: column;
@@ -829,7 +844,7 @@ p span{
   padding: 50px 0;
   position: relative;
   display: flex;
-  overflow: hidden;
+ 
   flex-direction: column;
 }
 
@@ -842,6 +857,18 @@ p span{
   gap: 40px;
   padding: 40px 20px;
 
+}
+
+.life-in-campus .campus-sec1:before{
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 6px;
+  background-color: #5546FF;
+  top: -35px;
+  left: 0;
+  z-index: 10;
+  transform: translateX(-5.9px);
 }
 
 .campus-1-border{
@@ -877,6 +904,9 @@ p span{
 }
 
 @media(max-width:768px){
+  .life-in-campus .campus-sec1::before{
+    display: none;
+  }
 
   .campus-2-border , .campus-1-border{
     border: none;
@@ -885,6 +915,7 @@ p span{
   .life-in-campus{
     padding: 0 8px;
     margin-top: 80px;
+    overflow: hidden;
   }
   .life-in-campus .campus-sec{
     flex-direction: column;
@@ -1131,5 +1162,71 @@ p span{
 @media(max-width:768px){
   .copy-rights p{
     font-size: 10px;
+    padding: 0 10px;
   }
+}
+
+/* shadows */
+
+
+.nav-bar .shadow-1 {
+  background: rgba(106, 166, 249, 0.73);
+  filter: blur(210px);
+  height: 600px;
+  width: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(80%, -80%);
+}
+.welcome-cont .shadow-2 {
+  border-radius: 76.81681rem;
+    background: #DEEAFE;
+    filter: blur(200px);
+  height: 600px;
+  width: 600px;
+  position: absolute;
+}
+.our-clubs .shadow-3 {
+  border-radius: 76.81681rem;
+  background-color: rgba(106, 166, 249, 0.73);
+  filter: blur(150px);
+  height: 600px;
+  width: 600px;
+  transform: translate(0 ,80%);
+  position: absolute;
+}
+
+.life-in-campus .shadow-4 {
+  border-radius: 76.81681rem;
+  background-color: rgba(106, 166, 249, 0.73);
+  filter: blur(250px);
+  height: 600px;
+  width: 600px;
+  right: 0;
+  top: 0;
+  transform: translate(0, 20%);
+  position: absolute;
+}
+
+.life-in-campus .shadow-5 {
+  border-radius: 76.81681rem;
+  background-color: rgba(106, 166, 249, 0.73);
+  filter: blur(250px);
+  height: 600px;
+  width: 600px;
+  left: 0;
+  bottom: 0;
+  transform: translate(0, -20%);
+  position: absolute;
+}
+
+@media(max-width:768px) {
+  .nav-bar .shadow-1{
+    display: none;
+  }
+
+    .welcome-cont{
+      overflow: hidden;
+    }
 }

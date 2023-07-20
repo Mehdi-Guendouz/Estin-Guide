@@ -17,6 +17,7 @@ const OurClubs = () => {
 
     return ( 
         <div className="our-clubs" id="our-clubs">
+            <div className="shadow-3"></div>
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
                 <h1 className="title">Our <span>clubs</span></h1>
                 <p className="desc">Here, you will discover our clubs where <span>creativity</span>  and <span>knowledge</span>  converge, enhancing the enchantment of Estin, making it a truly <span>delightful experience.</span> </p>

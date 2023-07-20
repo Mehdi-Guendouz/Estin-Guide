@@ -1,4 +1,4 @@
-import InfosPdf from "../assets/Infos.pdf"
+import estinInfos from "../assets/estinInfos.pdf"
 
 
 const JoinUs = () => {
@@ -10,7 +10,7 @@ const JoinUs = () => {
             <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500"
             className="join-us-cont">
                 <p className="join">download this PDF file</p>
-                <a className="download"  href={InfosPdf} download="Infos.pdf">Download</a>
+                <a className="download"  href={estinInfos} download="Infos.pdf">Download</a>
             </div>
             
         </div>

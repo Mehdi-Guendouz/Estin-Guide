@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer">
             <div className="join-discord">
                 <img src={logo} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, doloribus!</p>
+                <p>Empowering Learners, Enriching Communities</p>
                 <a href="">
                     <p className="dis-text">Discord server</p>
                     <FaDiscord className='discord-icon'></FaDiscord>
@@ -28,20 +28,20 @@ const Footer = () => {
                             <li><a href="#life-in-campus">life in campus</a></li>
                         </ul>
                         <ul className="links-1">
-                            <li><Link to="#studies">studies</Link></li>
+                            <li><a href="#studies">studies</a></li>
                             <li><a href="#specialities">specialities</a></li>
-                            <li><a href="#admissions">admissoins</a></li>
-                            <li><a href="#more-q">more questions</a></li>
+                            <li><a href="#admissions">admissions</a></li>
+                            {/* <li><a href="#more-q">more questions</a></li> */}
                         </ul>
                     </div>
                 </div>
                 <div className="social-links">
                     <h3>follow us </h3>
                     <div>
-                        <Link href="https://www.instagram.com/estin__bejaia/?igshid=MzRlODBiNWFlZA%3D%3D&fbclid=IwAR00SgDXsKNchkbbhI3SWnGcJOR1AejPRHjegwB23S1WrfOiOCOipavlQn4" target='_blank'><SlSocialInstagram className='icon'></SlSocialInstagram></Link>
-                    <Link href="https://www.youtube.com/@estinbejaia" target='_blank'><SlSocialYoutube className='icon'></SlSocialYoutube></Link>
-                    <Link href="https://www.facebook.com/groups/694051234569729" target='_blank'><SlSocialFacebook className='icon'></SlSocialFacebook></Link>
-                    <Link href="https://www.linkedin.com/school/estin-bejaia/?fbclid=IwAR0wnHe0Ty5IupeFMHr6m1t_bwjV8XG3T7Q2RuzLi42Hq5seITyoYt0Msjc" target='_blank'><SlSocialLinkedin className='icon'></SlSocialLinkedin></Link>
+                         <Link target='_blank' to='https://www.instagram.com/bytecraft.estin'><SlSocialInstagram className='icon'/></Link>
+                    <Link target='_blank' to='https://www.facebook.com/ByteCraftEstin/'><SlSocialFacebook className='icon'/></Link>
+                    {/* <Link target='_blank' to='https://www.youtube.com/@estinbejaia'><SlSocialYoutube className='social-icon'/></Link> */}
+                    <Link target='_blank' to='https://www.linkedin.com/company/bytecraft-club/'><SlSocialLinkedin className='icon'/></Link>
                     </div>
                     
                 </div>
@@ -50,7 +50,8 @@ const Footer = () => {
         </div>
         <div className="copy-rights">
             <p>all rights are reserved </p>
-            <p>designed by hiba bellatreche ✨</p>
+            	
+            <p>&copy; 2023 ByteCraft</p>
         </div>
         </div>
         
