@@ -1,7 +1,7 @@
 import bytecraft from "../assets/svg/bytecraft.svg"
 import gdsc from "../assets/logo/gdsc.webp"
 import soai from "../assets/logo/soai.jpg"
-import suiris from"../assets/logo/suiris.jpg"
+import suiris from"../assets/logo/suiris.png"
 
 export default function Clubs() {
   return (   
@@ -58,7 +58,7 @@ export default function Clubs() {
                             <p>+1 events</p>
                         </div>
                     </div>
-                    <div className="logo">
+                    <div className="logo suiris">
                         <img src={suiris} alt="" />
                     </div>
                 </div>

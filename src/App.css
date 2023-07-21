@@ -768,6 +768,13 @@ p span{
   height: 100%;
   object-fit: contain;
 }
+
+.our-clubs .clubs .club .suiris{
+  width: 123px;
+  height: 123px;
+  margin-left: 25px;
+}
+
 .our-clubs .clubs .club .text h3{
   margin: 10px 0;
 }
@@ -786,6 +793,13 @@ p span{
     width: 100%;
     padding: 10px 20px;
   }
+
+    .our-clubs .clubs .club .suiris {
+      width: 70px;
+      height: 70px;
+      margin-left: 10px;
+    }
+
 }
 /* hte events and workshops  */
 .our-events{
