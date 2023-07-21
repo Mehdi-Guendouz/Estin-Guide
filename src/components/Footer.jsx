@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="join-discord">
                 <img src={logo} alt="" />
                 <p>Empowering Learners, Enriching Communities</p>
-                <a target='_blank' href="https://discord.gg/KSyKAQ8ews">
+                <a target='_blank' href="https://discord.gg/Cp2y9vkx25">
                     <p className="dis-text">Discord server</p>
                     <FaDiscord className='discord-icon'></FaDiscord>
                 </a>
