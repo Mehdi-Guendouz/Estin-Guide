@@ -1,6 +1,6 @@
 import { FaAnglesDown } from "react-icons/fa6";
 import { SlSocialFacebook, SlSocialInstagram, SlSocialLinkedin } from "react-icons/sl";
-import arrow from '../assets/pic/arrow.png'
+import arrow from '../assets/pic/Arrow.png'
 import { Link } from 'react-router-dom';
 
 const Welcome = () => {
